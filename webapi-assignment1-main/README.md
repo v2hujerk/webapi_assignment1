@@ -1,12 +1,23 @@
-# Assignment 1
-
-You will only need one file, ie, your node module, for this assignment.
-
-In this readme file, describe how to use your node module. It could be similar to **app.js** from Lab2, where you call some functions in your node module and display the output. Describe how to setup your node module, if any. Describe how to call the functions, what parameters required and so on.
-
-You can press **Ctrl+Shift+V** in this file in Visual Studio Code to see a live preview of the readme file.
-
-For some tips in formatting text in readme file, refer to https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+# Product Catalog Management Module
+This Node module provides basic product catalog management features, allowing users to add, update, and manage products, stock levels, promotions, and customer reviews in a simulated inventory system.
 
 # How To Use
-Provide the references that you have used to support your assignment. 
+1. Install Node.js on your system
+2. Download and Add XuanWei_ProductCatalog in your project folder
+3. To Use the command you will have to have a seperate App.js file to run these functions
+
+I have provided a App.js File as an example on how you are able to use these functions.
+To run the App.js file, open the integrated terminal of the App.js and run it by typing "node App.js" in the integrated terminal.
+
+Functionality of Each Function:
+-**addProduct**: Adds a new product to the catalog with details like name, price, and category. Initializes the stock to 0 and an empty list for customer reviews.
+-**listProducts**: Lists all products currently available in the catalog.
+-**updateProduct**: Updates the details of an existing product (e.g., price, name, category) using its index in the product list.
+-**addPromotion**: Adds a new promotional offer with a name and discount percentage.
+-**listPromotions**: Lists all active promotions added to the system.
+-**restockProduct**: Increases the inventory stock of a product by a specified quantity.
+-**addProductReview**: Adds a customer review or feedback to a specific product.
+-**generateStockReport**: Generates a report showing each product's name and current stock level.
+
+# References
+i used ChatGpt to clean up my code for a few syntax errors and format it nicer
