@@ -11,12 +11,19 @@ To run the App.js file, open the integrated terminal of the App.js and run it by
 
 Functionality of Each Function:
 -**addProduct**: Adds a new product to the catalog with details like name, price, and category. Initializes the stock to 0 and an empty list for customer reviews.
+
 -**listProducts**: Lists all products currently available in the catalog.
+
 -**updateProduct**: Updates the details of an existing product (e.g., price, name, category) using its index in the product list.
+
 -**addPromotion**: Adds a new promotional offer with a name and discount percentage.
+
 -**listPromotions**: Lists all active promotions added to the system.
+
 -**restockProduct**: Increases the inventory stock of a product by a specified quantity.
+
 -**addProductReview**: Adds a customer review or feedback to a specific product.
+
 -**generateStockReport**: Generates a report showing each product's name and current stock level.
 
 # References
