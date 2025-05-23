@@ -9,7 +9,7 @@ This Node module provides basic product catalog management features, allowing us
 I have provided a App.js File as an example on how you are able to use these functions.
 To run the App.js file, open the integrated terminal of the App.js and run it by typing "node App.js" in the integrated terminal.
 
-Functionality of Each Function:
+# Functionality of Each Function:
 
 -**addProduct**: Adds a new product to the catalog with details like name, price, and category. Initializes the stock to 0 and an empty list for customer reviews.
 
